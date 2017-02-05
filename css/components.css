@@ -8,6 +8,34 @@
 p{
 	text-align: justify;
 }
+
+.primary-panel{
+	border:  1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	margin-bottom: 2px;
+}
+.primary-panel i{
+	color: #fff !important;
+}
+.primary-panel>.panel-heading {
+	padding: .5rem;
+	background-color: #49BF4C !important;
+	margin-bottom: 0;
+	color: white;
+	font-weight: 300;
+}
+primary-panel>.panel-heading >i{
+	margin-left: .5rem;
+}
+
+.primary-panel>.panel-body{
+	padding: 1rem;
+	display: none;
+}
+.primary-panel>.panel-body img{
+	padding: 1rem;
+}
+
 .tab-item {
   background: none repeat scroll 0 0 #fff;
   display: none;
@@ -94,7 +122,6 @@ form.customform button {
  height: 2.7rem;
  padding: 0.625rem;
  cursor:pointer;
- width: 100%;
  transition: background 0.20s linear 0s;
  -o-transition: background 0.20s linear 0s;
  -ms-transition: background 0.20s linear 0s;
