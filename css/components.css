@@ -5,6 +5,9 @@
  * Free to use under the MIT license.
 */
 /* Tabs */
+p{
+	text-align: justify;
+}
 .tab-item {
   background: none repeat scroll 0 0 #fff;
   display: none;
