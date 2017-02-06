@@ -5,6 +5,9 @@
  * Free to use under the MIT license.
 */
 /* Tabs */
+body{
+	cursor: default;
+}
 p{
 	text-align: justify;
 }
@@ -24,6 +27,9 @@ p{
 	color: white;
 	font-weight: 300;
 }
+.panel-heading:hover{
+	color: antiquewhite;
+}
 primary-panel>.panel-heading >i{
 	margin-left: .5rem;
 }
@@ -34,6 +40,13 @@ primary-panel>.panel-heading >i{
 }
 .primary-panel>.panel-body img{
 	padding: 1rem;
+	margin: auto;
+}
+
+.ldr-image{
+	border: white thick solid;
+    box-shadow: 0em 0em 13px 0px #E0E0E0;
+    padding: 5px;
 }
 
 .tab-item {

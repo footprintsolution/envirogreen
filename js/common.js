@@ -1,7 +1,6 @@
 $(".panel-heading").click(function () {
 	"use strict";
-	console.log("this is clidk");
-	$(this).siblings(".panel-body").toggle(500);
+	$(this).siblings(".panel-body").slideToggle(500);
 	if ($(this).children("i").attr("class") === "icon-sli-arrow-down") {
 		$(this).children("i").attr("class", "icon-sli-arrow-right");
 	}else {
