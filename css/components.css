@@ -48,6 +48,19 @@ primary-panel>.panel-heading >i{
     box-shadow: 0em 0em 13px 0px #E0E0E0;
     padding: 5px;
 }
+.margin-b-10{
+	margin-bottom: 10px;
+}
+@media screen and (max-width: 768px) {
+	.hide-small{
+		display: none;
+	}
+}
+@media screen and (min-width: 769px) {
+	.hide-large{
+		display: none;
+	}
+}
 
 .tab-item {
   background: none repeat scroll 0 0 #fff;
